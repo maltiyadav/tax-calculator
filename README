@@ -1,0 +1,27 @@
+Tax Calculation Application
+================================
+
+## Run Application
+
+```
+> activator run
+```
+
+## Run Test Case
+Run all the test cases
+```
+> activator test
+```
+OR
+
+Run particular test cases
+```
+> activator "testOnly TaxCalculatorControllerTest"
+```
+
+## Code Coverage
+Run the tests with enabled coverage:
+```
+> activator clean coverage test coverageReport
+```
+
